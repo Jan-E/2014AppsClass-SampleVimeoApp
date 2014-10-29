@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28F6CDBE1A01614100D17232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6CDBD1A01614100D17232 /* main.m */; };
+		28F6CDC11A01614100D17232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6CDC01A01614100D17232 /* AppDelegate.m */; };
+		28F6CDC41A01614100D17232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6CDC31A01614100D17232 /* ViewController.m */; };
+		28F6CDC71A01614100D17232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F6CDC51A01614100D17232 /* Main.storyboard */; };
+		28F6CDC91A01614100D17232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F6CDC81A01614100D17232 /* Images.xcassets */; };
+		28F6CDCC1A01614100D17232 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F6CDCA1A01614100D17232 /* LaunchScreen.xib */; };
+		28F6CDD81A01614100D17232 /* SampleVimeoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6CDD71A01614100D17232 /* SampleVimeoAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F6CDD21A01614100D17232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F6CDB01A01614100D17232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F6CDB71A01614100D17232;
+			remoteInfo = SampleVimeoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28F6CDB81A01614100D17232 /* SampleVimeoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVimeoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F6CDBC1A01614100D17232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F6CDBD1A01614100D17232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F6CDBF1A01614100D17232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28F6CDC01A01614100D17232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28F6CDC21A01614100D17232 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28F6CDC31A01614100D17232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28F6CDC61A01614100D17232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F6CDC81A01614100D17232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28F6CDCB1A01614100D17232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		28F6CDD11A01614100D17232 /* SampleVimeoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVimeoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F6CDD61A01614100D17232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F6CDD71A01614100D17232 /* SampleVimeoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVimeoAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F6CDB51A01614100D17232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F6CDCE1A01614100D17232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F6CDAF1A01614100D17232 = {
+			isa = PBXGroup;
+			children = (
+				28F6CDBA1A01614100D17232 /* SampleVimeoApp */,
+				28F6CDD41A01614100D17232 /* SampleVimeoAppTests */,
+				28F6CDB91A01614100D17232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F6CDB91A01614100D17232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F6CDB81A01614100D17232 /* SampleVimeoApp.app */,
+				28F6CDD11A01614100D17232 /* SampleVimeoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F6CDBA1A01614100D17232 /* SampleVimeoApp */ = {
+			isa = PBXGroup;
+			children = (
+				28F6CDBF1A01614100D17232 /* AppDelegate.h */,
+				28F6CDC01A01614100D17232 /* AppDelegate.m */,
+				28F6CDC21A01614100D17232 /* ViewController.h */,
+				28F6CDC31A01614100D17232 /* ViewController.m */,
+				28F6CDC51A01614100D17232 /* Main.storyboard */,
+				28F6CDC81A01614100D17232 /* Images.xcassets */,
+				28F6CDCA1A01614100D17232 /* LaunchScreen.xib */,
+				28F6CDBB1A01614100D17232 /* Supporting Files */,
+			);
+			path = SampleVimeoApp;
+			sourceTree = "<group>";
+		};
+		28F6CDBB1A01614100D17232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F6CDBC1A01614100D17232 /* Info.plist */,
+				28F6CDBD1A01614100D17232 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F6CDD41A01614100D17232 /* SampleVimeoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				28F6CDD71A01614100D17232 /* SampleVimeoAppTests.m */,
+				28F6CDD51A01614100D17232 /* Supporting Files */,
+			);
+			path = SampleVimeoAppTests;
+			sourceTree = "<group>";
+		};
+		28F6CDD51A01614100D17232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F6CDD61A01614100D17232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F6CDB71A01614100D17232 /* SampleVimeoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F6CDDB1A01614100D17232 /* Build configuration list for PBXNativeTarget "SampleVimeoApp" */;
+			buildPhases = (
+				28F6CDB41A01614100D17232 /* Sources */,
+				28F6CDB51A01614100D17232 /* Frameworks */,
+				28F6CDB61A01614100D17232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleVimeoApp;
+			productName = SampleVimeoApp;
+			productReference = 28F6CDB81A01614100D17232 /* SampleVimeoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28F6CDD01A01614100D17232 /* SampleVimeoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F6CDDE1A01614100D17232 /* Build configuration list for PBXNativeTarget "SampleVimeoAppTests" */;
+			buildPhases = (
+				28F6CDCD1A01614100D17232 /* Sources */,
+				28F6CDCE1A01614100D17232 /* Frameworks */,
+				28F6CDCF1A01614100D17232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F6CDD31A01614100D17232 /* PBXTargetDependency */,
+			);
+			name = SampleVimeoAppTests;
+			productName = SampleVimeoAppTests;
+			productReference = 28F6CDD11A01614100D17232 /* SampleVimeoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F6CDB01A01614100D17232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jeff Linwood";
+				TargetAttributes = {
+					28F6CDB71A01614100D17232 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					28F6CDD01A01614100D17232 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 28F6CDB71A01614100D17232;
+					};
+				};
+			};
+			buildConfigurationList = 28F6CDB31A01614100D17232 /* Build configuration list for PBXProject "SampleVimeoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28F6CDAF1A01614100D17232;
+			productRefGroup = 28F6CDB91A01614100D17232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F6CDB71A01614100D17232 /* SampleVimeoApp */,
+				28F6CDD01A01614100D17232 /* SampleVimeoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F6CDB61A01614100D17232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6CDC71A01614100D17232 /* Main.storyboard in Resources */,
+				28F6CDCC1A01614100D17232 /* LaunchScreen.xib in Resources */,
+				28F6CDC91A01614100D17232 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F6CDCF1A01614100D17232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F6CDB41A01614100D17232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6CDC41A01614100D17232 /* ViewController.m in Sources */,
+				28F6CDC11A01614100D17232 /* AppDelegate.m in Sources */,
+				28F6CDBE1A01614100D17232 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F6CDCD1A01614100D17232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6CDD81A01614100D17232 /* SampleVimeoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F6CDD31A01614100D17232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F6CDB71A01614100D17232 /* SampleVimeoApp */;
+			targetProxy = 28F6CDD21A01614100D17232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28F6CDC51A01614100D17232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F6CDC61A01614100D17232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28F6CDCA1A01614100D17232 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F6CDCB1A01614100D17232 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F6CDD91A01614100D17232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28F6CDDA1A01614100D17232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F6CDDC1A01614100D17232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleVimeoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28F6CDDD1A01614100D17232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleVimeoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28F6CDDF1A01614100D17232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleVimeoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleVimeoApp.app/SampleVimeoApp";
+			};
+			name = Debug;
+		};
+		28F6CDE01A01614100D17232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleVimeoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleVimeoApp.app/SampleVimeoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F6CDB31A01614100D17232 /* Build configuration list for PBXProject "SampleVimeoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F6CDD91A01614100D17232 /* Debug */,
+				28F6CDDA1A01614100D17232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F6CDDB1A01614100D17232 /* Build configuration list for PBXNativeTarget "SampleVimeoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F6CDDC1A01614100D17232 /* Debug */,
+				28F6CDDD1A01614100D17232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28F6CDDE1A01614100D17232 /* Build configuration list for PBXNativeTarget "SampleVimeoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F6CDDF1A01614100D17232 /* Debug */,
+				28F6CDE01A01614100D17232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F6CDB01A01614100D17232 /* Project object */;
+}
